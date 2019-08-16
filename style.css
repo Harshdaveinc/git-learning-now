@@ -154,7 +154,7 @@ body {
     animation: anim 2s ease forwards 1.2s;
 }
 
-#mains path:nth-child(1) {
+#mains path:nth-child(5) {
     stroke-dasharray: 604.4830322265625px;
     stroke-dashoffset: 604.4830322265625px;
     animation: anim 2s ease forwards 1.5s;
