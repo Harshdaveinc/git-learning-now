@@ -113,3 +113,11 @@ body {
     stroke-dashoffset: 549.0671997070312px;
     animation: anim 3s ease forwards 2.7s;
 }
+#foot{
+    color: white;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 90%;
+    left: 35%;
+    word-spacing: 1px;
+}
