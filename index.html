@@ -14,6 +14,41 @@
   <body>
     <div class="main">
       <svg
+        id="mains"
+        width="503"
+        height="107"
+        viewBox="0 0 503 107"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M14 4.35201V104L3 103.568V3.92001L14 4.35201Z"
+          stroke="white"
+          stroke-width="5"
+        />
+        <path
+          d="M123.635 81.68H79.8588L71.7948 104H57.9708L94.2588 4.208H109.379L145.523 104H131.699L123.635 81.68ZM119.891 71.024L101.747 20.336L83.6028 71.024H119.891Z"
+          stroke="white"
+          stroke-width="5"
+        />
+        <path
+          d="M263.146 4.35201V104H250.042V29.696L216.922 104H207.706L174.442 29.552V104H161.338V4.35201H175.45L212.314 86.72L249.178 4.35201H263.146Z"
+          stroke="white"
+          stroke-width="5"
+        />
+        <path
+          d="M383.088 81.68H339.312L331.248 104H317.424L353.712 4.208H368.832L404.976 104H391.152L383.088 81.68ZM379.344 71.024L361.2 20.336L343.056 71.024H379.344Z"
+          stroke="white"
+          stroke-width="5"
+        />
+        <path
+          d="M499.703 104H486.599L433.895 24.08V104H420.791V3.48801H433.895L486.599 83.264V3.48801H499.703V104Z"
+          stroke="white"
+          stroke-width="5"
+        />
+      </svg>
+
+      <svg
         id="logo"
         width="299"
         height="107"
@@ -95,6 +130,11 @@
     <footer id="foot">
       <h2>Made By ♥ With Harsh And Chirag !!</h2>
     </footer>
-    <script src="./app.js"></script>
+    <script>
+      const logo = document.querySelectorAll("#mains path");
+      for (let i = 0; i < logo.length; i++) {
+        console.log(`letter ${i} of ${logo[i].getTotalLength()}`);
+      }
+    </script>
   </body>
 </html>

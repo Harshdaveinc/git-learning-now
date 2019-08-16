@@ -12,17 +12,24 @@ body {
 
 #logo {
     position: absolute;
-    top: 20%;
-    left: 38%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     animation: 0.5s fill ease forwards 3.5s;
 }
 
 #deve {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: 0.5s fill ease forwards 4s;
+    top: 60%;
+    left: 24%;
+    animation: 0.5s fill ease forwards 3.5s;
+}
+
+#mains {
+    position: absolute;
+    top: 23%;
+    left: 33%;
+    animation: 0.5s fill ease forwards 3.5s;
 }
 
 #logo path:nth-child(1) {
@@ -63,61 +70,92 @@ body {
 #deve path:nth-child(1) {
     stroke-dasharray: 571.5772094726562px;
     stroke-dashoffset: 571.5772094726562px;
-    animation: anim 3s ease forwards;
+    animation: anim 2s ease forwards;
 }
 
 #deve path:nth-child(2) {
     stroke-dasharray: 463.9680480957031px;
     stroke-dashoffset: 463.9680480957031px;
-    animation: anim 3s ease forwards 0.6;
+    animation: anim 2s ease forwards 0.6;
 }
 
 #deve path:nth-child(3) {
     stroke-dasharray: 441.6844177246094px;
     stroke-dashoffset: 441.6844177246094px;
-    animation: anim 3s ease forwards 0.9s;
+    animation: anim 2s ease forwards 0.9s;
 }
 
 #deve path:nth-child(4) {
     stroke-dasharray: 463.96807861328125px;
     stroke-dashoffset: 463.96807861328125px;
-    animation: anim 3s ease forwards 1.2s;
+    animation: anim 2s ease forwards 1.2s;
 }
 
 #deve path:nth-child(5) {
     stroke-dasharray: 297.216064453125px;
     stroke-dashoffset: 297.216064453125px;
-    animation: anim 3s ease forwards 1.5s;
+    animation: anim 2s ease forwards 1.5s;
 }
 
 #deve path:nth-child(6) {
     stroke-dasharray: 565.951904296875px;
     stroke-dashoffset: 565.951904296875px;
-    animation: anim 3s ease forwards 1.8s;
+    animation: anim 2s ease forwards 1.8s;
 }
 
 #deve path:nth-child(7) {
     stroke-dasharray: 449.7338562011719px;
     stroke-dashoffset: 449.7338562011719px;
-    animation: anim 3s ease forwards 2.1s;
+    animation: anim 2s ease forwards 2.1s;
 }
 
 #deve path:nth-child(8) {
     stroke-dasharray: 463.968017578125px;
     stroke-dashoffset: 463.968017578125px;
-    animation: anim 3s ease forwards 2.4s;
+    animation: anim 2s ease forwards 2.4s;
 }
 
 #deve path:nth-child(9) {
     stroke-dasharray: 549.0671997070312px;
     stroke-dashoffset: 549.0671997070312px;
-    animation: anim 3s ease forwards 2.7s;
+    animation: anim 2s ease forwards 2.7s;
 }
-#foot{
+
+#foot {
     color: white;
     position: absolute;
     font-family: 'Poppins', sans-serif;
     top: 90%;
     left: 35%;
     word-spacing: 1px;
+}
+
+#mains path:nth-child(1) {
+    stroke-dasharray: 221.31292724609375px;
+    stroke-dashoffset: 221.31292724609375px;
+    animation: anim 2s ease forwards;
+}
+
+#mains path:nth-child(2) {
+    stroke-dasharray: 490.2921142578125px;
+    stroke-dashoffset: 490.2921142578125px;
+    animation: anim 2s ease forwards 0.6s;
+}
+
+#mains path:nth-child(3) {
+    stroke-dasharray: 754.9266357421875px;
+    stroke-dashoffset: 754.9266357421875px;
+    animation: anim 2s ease forwards 0.9s;
+}
+
+#mains path:nth-child(4) {
+    stroke-dasharray: 490.2920837402344px;
+    stroke-dashoffset: 490.2920837402344px;
+    animation: anim 2s ease forwards 1.2s;
+}
+
+#mains path:nth-child(1) {
+    stroke-dasharray: 604.4830322265625px;
+    stroke-dashoffset: 604.4830322265625px;
+    animation: anim 2s ease forwards 1.5s;
 }
